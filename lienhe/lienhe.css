@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    color: black;
+    
+    text-align: center;
+}
+.header{
+    height:70px;
+    width:100%;
+    background-color:brown;
+    display:flex;
+    align-content:center;
+    justify-content:space-between;
+}
+.logo{
+    height: 70px;
+    width:200px; 
+    margin-left: 12px;
+}
+section {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
